@@ -1,0 +1,374 @@
+body{
+	background-color: #E6DCD0;
+}
+
+#nav-bar{
+	background-image: url("/imagenes/fondo.jpg");
+	width: 100%;
+}
+
+#fondo-nav-bar{
+	background-color: #BEA78D;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#pie{
+	background-image: url("/imagenes/fondo.jpg");
+	width: 100%;
+	height: 50px;
+}
+
+#fondo-pie{
+	padding: 20px;
+	background-color: #BEA78D;
+	height: 240px;
+}
+
+.logo-urena{ width: 260px; }
+
+.img-marcas{ width: 160px; }
+
+.img-marcas1{ width: 100px; }
+
+.img-marcas2{ width: 80px; }
+
+.img-pie{ width: 250px; }
+
+.container{ width: 1020px; }
+
+#texto-marcas{
+	font-size: 18px;
+	color: #6F6151;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#texto-DRMU{
+	font-size: 14px;
+	color: #6F6151;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #765745;
+}
+
+#texto-acerca{
+	font-size: 40px;
+	color: #6F6151;
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+#texto-MVO{
+	font-size: 20px;
+	color: #5E5347;
+	text-align: left;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#p-MVO{
+	font-size: 13px;
+	color: #5E5347;
+	text-align: justify;
+}
+
+.opcion-activa{
+	background-color: #5E5347;
+}
+
+#fondo-NP{
+	background-color: #BEA78D;
+	height: 60px;
+	vertical-align: center;
+}
+
+#p-Cont{
+	font-size: 14px;
+	color: #5E5347;
+	text-align: justify;
+}
+
+#form-contacto{
+	width: 300px;
+	background-color: white;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+#texto-CU{
+	font-size: 20px;
+	color: #5E5347;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+/*Para cambiar el color de las líneas de los input-field*/
+.input-field input[type=text]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field textarea:focus{
+	border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=password]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=email]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+#texto, label, th{
+	color: #BEA78D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#boton{
+	background-color: #5E5347;
+	height: 40px;
+	width: 160px;
+	border-radius: 10px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+.btn-social{
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#slider-SoliciTEC, #section{
+	margin-top: 20px;
+}
+
+#form{
+	width: 350px;
+	height: 300px;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	border-radius: 20px;
+}
+
+#registrate{
+	width: 500px;
+	height: 530px;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	margin-bottom: 20px;
+}
+
+#altaempleado{
+	width: 610px;
+	height: 810px !important;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	margin-bottom: 20px;
+}
+
+#altadepartamento{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	margin-bottom: 20px;
+}
+
+#regsolicitud{
+	width: 500px;
+	height: 650px;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	margin-bottom: 20px;
+}
+
+#regqueja{
+	width: 700px;
+	height: 900px;
+	text-align: center;
+	background-color: #e8f5e9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.100);
+	border: 1px solid #a5d6a7;
+	margin-bottom: 20px;
+}
+
+
+
+#texto2 {
+	color: #2e7d32;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+/*Para cambiar el color de la palomita del checkbox*/
+input[type="checkbox"]:checked + label:before {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+input[type="checkbox"]:checked + label:after {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+
+
+#boton2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #2e7d32;
+	height: 45px;
+	width: 180px;
+	border-radius: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#boton3{
+	background-color: #2e7d32;
+	height: 40px;
+	width: 170px;
+	border-radius: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#boton4{
+	background-color: #616161;
+	height: 40px;
+	width: 170px;
+	border-radius: 5px;
+	font-weight: bold;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#titulos{
+	color: #43a047;
+	font-weight: bold;
+	text-align: left;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#titulos1{
+	color: #2e7d32;
+	font-weight: bold;
+	text-align: left;
+	font-size:20px !important;
+	padding: 0px;
+	margin: 0px;
+}
+
+#titulos2{
+	color: #43a047;
+	font-weight: bold;
+	text-align: left;
+	font-size: 25px;
+}
+
+#parrafo{
+	color: #2e7d32;
+	font-size: 17px;
+}
+
+#buscador{
+	border: 1px solid #a5d6a7;
+	height: 25px;
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+    box-shadow: 0 1px 0 0 #43a047;
+    color: #2e7d32;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#correcto{
+	color: #2e7d32;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+#imagenQueja{
+	width: 150px !important;
+	height: 100px !important;
+}
+
+.Colsp{
+	/*padding-top: 20px;*/
+	width: 300px;
+	height: 700px;
+	/*margin-top: 20px;*/
+}
+
+ .ulquejas{
+    height: 650px;
+	width: 360px;
+	padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .itemsQuejas{
+ 	text-align: left !important;
+ 	margin-top: -50px !important;
+	margin-bottom: 10px !important;
+ }
