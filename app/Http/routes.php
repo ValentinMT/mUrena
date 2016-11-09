@@ -11,3 +11,11 @@ Route::get('/acerca', function () {
 Route::get('/contacto', function () {
     return view('website.contacto');
 });
+
+Route::get('/productos', function () {
+    return view('website.productos');
+});
+
+Route::get('/login', function () {
+    return view('website.login');
+});

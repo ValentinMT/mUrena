@@ -4,15 +4,17 @@
 
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <?php $route = Route::current()->uri(); ?>
-    @if($route == '/') <?php $route = 'Mueblería Ureña' ?> @endif
-    @if($route == 'acceder') <?php $route = 'Iniciar Sesión' ?> @endif
-    @if($route == 'acerca') <?php $route = 'Acerca' ?> @endif
-    @if($route == 'contacto') <?php $route = 'Contacto' ?> @endif
-    <title>{{ $route }}</title>
+        @if($route == '/') <?php $route = 'Mueblería Ureña' ?> @endif
+        @if($route == 'login') <?php $route = 'Iniciar Sesión' ?> @endif
+        @if($route == 'acerca') <?php $route = 'Acerca' ?> @endif
+        @if($route == 'contacto') <?php $route = 'Contacto' ?> @endif
+        @if($route == 'productos') <?php $route = 'Productos' ?> @endif
+        <title>{{ $route }}</title>
     <?php $route2 = Route::current()->uri(); ?>
     <link rel="stylesheet" href="/css/materialize.min.css"/>
-	<link rel="stylesheet" href="/css/app.css"/>
+	<link rel="stylesheet" href="/css/appMU3.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
@@ -25,25 +27,31 @@
                         <a href="/" style="margin-left: 40px"><img src="/imagenes/logo-headerMU.png" class="logo-urena"></a>
                         <a href="/" data-activates="mobile-demo" class="button-collapse" style="margin-left: 40px"><i class="fa fa-bars"></i></a>
                         <ul class="right hide-on-med-and-down">
+                            <li class=@if($route2 == 'productos') {{'opcion-activa'}} @endif>
+                                <a href="/productos">Productos</a>
+                            </li>
                             <li class=@if($route2 == 'acerca') {{'opcion-activa'}} @endif>
                                 <a href="/acerca"><i class="fa fa-question-circle"></i>  Acerca</a>
                             </li>
                             <li class=@if($route2 == 'contacto') {{'opcion-activa'}} @endif>
                                 <a href="/contacto"><i class="fa fa-envelope" aria-hidden="true"></i>  Contacto</a>
                             </li>
-                            <li class=@if($route2 == 'acceder') {{'opcion-activa'}} @endif>
-                                <a href="/acceder"><i class="fa fa-sign-in"></i>  Acceder</a>
+                            <li class=@if($route2 == 'login') {{'opcion-activa'}} @endif>
+                                <a href="/login"><i class="fa fa-sign-in"></i>  Iniciar Sesión</a>
                             </li>
                         </ul>
                         <ul class="side-nav" id="mobile-demo">
                             <li>
+                                <a href="/productos">Productos</a>
+                            </li>
+                            <li>
                                 <a href="/acerca"><i class="fa fa-question-circle"></i>  Acerca</a>
                             </li>
                             <li>
-                                <a href="/acerca"><i class="fa fa-envelope" aria-hidden="true"></i>  Contacto</a>
+                                <a href="/contacto"><i class="fa fa-envelope" aria-hidden="true"></i>  Contacto</a>
                             </li>
                             <li>
-                                <a href="/acceder"><i class="fa fa-sign-in"></i>  Acceder</a>
+                                <a href="/login"><i class="fa fa-sign-in"></i>  Iniciar Sesión</a>
                             </li>
                         </ul>
                     </div>

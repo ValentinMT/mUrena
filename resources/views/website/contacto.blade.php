@@ -60,18 +60,18 @@
                         </button>
                     </form>
                 </div>
-                <div class="col s12">
-                    <hr>
-                    <h5 align=left style="margin-left: 20px;" id="texto-CU">
-                        <b>Síguenos en: </b>
-                        <a href="https://www.facebook.com/urenamuebles" target="_blank">
-                            <i class="fa fa-facebook-official fa-1x" style="color: #0d47a1;" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.youtube.com/user/MUEBLERIAURENA" target="_blank">
-                            <i class="fa fa-youtube-square fa-1x" style="color: #b71c1c;" aria-hidden="true"></i>
-                        </a>
-                    </h5>
-                </div>
+            </div>
+            <div class="col s12">
+                <hr>
+                <h5 align=left style="margin-left: 20px;" id="texto-CU">
+                    <b>Síguenos en: </b>
+                    <a href="https://www.facebook.com/urenamuebles" target="_blank">
+                        <i class="fa fa-facebook-official fa-1x" style="color: #0d47a1;" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/MUEBLERIAURENA" target="_blank">
+                        <i class="fa fa-youtube-square fa-1x" style="color: #b71c1c;" aria-hidden="true"></i>
+                    </a>
+                </h5>
             </div>
         </div>
     </center>
