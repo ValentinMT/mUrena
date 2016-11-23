@@ -1,0 +1,245 @@
+body{
+	background-color: #E6DCD0;
+}
+
+#nav-bar{
+	background-image: url("/imagenes/fondo.jpg");
+	width: 100%;
+}
+
+#fondo-nav-bar{
+	background-color: #BEA78D;
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+#pie{
+	background-image: url("/imagenes/fondo.jpg");
+	width: 100%;
+	height: 50px;
+}
+
+#fondo-pie{
+	padding: 20px;
+	background-color: #BEA78D;
+	height: 240px;
+}
+
+.logo-urena{ width: 260px; }
+
+.img-marcas{ width: 160px; }
+
+.img-marcas1{ width: 100px; }
+
+.img-marcas2{ width: 80px; }
+
+.img-pie{ width: 250px; }
+
+.container{ 
+	width: 100%;
+	max-width: 1020px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#texto-marcas{
+	font-size: 18px;
+	color: #6F6151;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#texto-DRMU{
+	font-size: 14px;
+	color: #6F6151;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #765745;
+}
+
+#texto-acerca{
+	font-size: 40px;
+	color: #6F6151;
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+#texto-MVO{
+	font-size: 20px;
+	color: #5E5347;
+	text-align: left;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+#p-MVO{
+	font-size: 13px;
+	color: #5E5347;
+	text-align: justify;
+}
+
+.opcion-activa{
+	background-color: #5E5347;
+}
+
+#fondo-NP{
+	background-color: #BEA78D;
+	height: 60px;
+	vertical-align: center;
+	width: 100%;
+}
+
+#p-Cont{
+	font-size: 14px;
+	color: #5E5347;
+	text-align: justify;
+}
+
+#form-contacto{
+	/*width: 300px;*/
+	background-color: white;
+	padding: 18px;
+	border-radius: 20px;
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+#texto-CU{
+	/*font-size: 20px;*/
+	color: #5E5347;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+/*Para cambiar el color de las líneas de los input-field*/
+.input-field input[type=text]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field textarea:focus{
+	border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=password]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=email]:focus{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+/*Para cambiar el color de las líneas de los input-field*/
+.input-field input[type=text]{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field textarea{
+	border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=password]{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+.input-field input[type=email]{
+    border-bottom: 1px solid #BEA78D;
+    box-shadow: 0 1px 0 0 #BEA78D;
+    color: #BEA78D;
+}
+
+#texto, label, th{
+	color: #BEA78D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#boton{
+	background-color: #5E5347;
+	height: 40px;
+	width: 160px;
+	border-radius: 10px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#form-producto{
+	width: 25%;
+	height: 310px;
+	background-color: white;
+	padding: 8px;
+	border-radius: 8px;
+	margin: 15px;
+	box-shadow: 2px 2px 2px 2px #aaa;
+	max-width: 225px;
+}
+
+#form-producto2{
+	width: 45%;
+	height: 310px;
+	background-color: white;
+	padding: 8px;
+	border-radius: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	/*margin-top: 4px;*/
+	box-shadow: 2px 2px 2px 2px #aaa;
+	max-width: 225px;
+}
+
+iframe, img, button, a{
+    max-width: 100%;
+}
+
+#boton2{
+	background-color: #5E5347;
+	height: 40px;
+	border-radius: 10px;
+	line-height: 40px;
+}
+
+#buscador{
+	/*width: 25%;*/
+	max-width: 200px;
+	height: 104px;
+	padding-top: 10px;
+	background-color: white; 
+	/*margin-left: 23px;*/
+	box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+#form-login{
+	max-width: 300px;
+	background-color: white;
+	padding: 18px;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	height: 350px;
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+#form-reg{
+	max-width: 600px;
+	background-color: white;
+	padding: 18px;
+	/*padding-top: 45px;
+	padding-bottom: 50px;*/
+	height: 450px;
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px #aaa;
+}

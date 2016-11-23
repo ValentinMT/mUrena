@@ -19,3 +19,7 @@ Route::get('/productos', function () {
 Route::get('/login', function () {
     return view('website.login');
 });
+
+Route::get('/registro', function () {
+    return view('website.registro');
+});

@@ -11,10 +11,11 @@
         @if($route == 'acerca') <?php $route = 'Acerca' ?> @endif
         @if($route == 'contacto') <?php $route = 'Contacto' ?> @endif
         @if($route == 'productos') <?php $route = 'Productos' ?> @endif
+        @if($route == 'registro') <?php $route = 'Registro' ?> @endif
         <title>{{ $route }}</title>
     <?php $route2 = Route::current()->uri(); ?>
     <link rel="stylesheet" href="/css/materialize.min.css"/>
-	<link rel="stylesheet" href="/css/appMU3.css"/>
+	<link rel="stylesheet" href="/css/appMU.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
